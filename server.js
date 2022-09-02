@@ -1,6 +1,6 @@
 let express = require('express')
 let app = express()
-app.listen(process.env.PORT, "127.0.0.1", function () {
+app.listen(process.env.PORT, function () {
   console.log('Server started at 127.0.0.1:5500')
 })
 let cors = require('cors')
