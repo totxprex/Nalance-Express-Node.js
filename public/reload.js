@@ -1,7 +1,7 @@
 if (localStorage.getItem('username')) {
-  document.location.href = `${document.location.hostname}:${document.location.port}/dashboard.html?${localStorage.getItem('username')}`
+  document.location.href = `https://nalance.netlify.app/dashboard.html?${localStorage.getItem('username')}`
 }
 
 else {
-  document.location.href = `${document.location.hostname}:${document.location.port}`
+  document.location.href = `https://nalance.netlify.app`
 }
