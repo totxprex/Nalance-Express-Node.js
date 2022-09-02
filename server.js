@@ -14,6 +14,7 @@ app.use(cors({
 app.use(express.json())
 
 let helmet = require('helmet')
+app.use(helmet())
 app.use(helmet({ crossOriginResourcePolicy: { policy: "cross-origin" } }))
 
 let dotenv = require('dotenv')
